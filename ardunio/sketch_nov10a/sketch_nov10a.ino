@@ -13,10 +13,10 @@
 #include <time.h>
 #define BLYNK_PRINT Serial
 
-char auth[] = "iFjAMTrHNiaFa9o5C6IYn58WCx-jjq4t";       
+char auth[] = "YOUR_BLYNK_AUTH_TOKEN";       
 //##################### Other WIFI Start ######################################
-const char *ssid =     "mummai_owner_2.4G";         
-const char *password = "mummai0972470067";              
+const char *ssid =     "YOUR_WIFI_SSID";         
+const char *password = "YOUR_WIFI_PASSWORD";              
 IPAddress staticIP(192, 168, 1, 242);
 IPAddress gateway(192, 168, 1, 1);
 IPAddress subnet(255, 255, 255, 0);
@@ -26,10 +26,10 @@ IPAddress dns(192, 168, 1, 1);
 
 //######################### WIFI EGAT Start ##################################
 //#include "esp_wpa2.h" //wpa2 library for connections to Enterprise networks
-//#define EAP_ANONYMOUS_IDENTITY "596621"
-//#define EAP_IDENTITY "596621"
-//#define EAP_PASSWORD "Sj@scg19"
-//const char *ssid = "EGATWIFI";    // Eduroam SSID
+//#define EAP_ANONYMOUS_IDENTITY "YOUR_EAP_IDENTITY"
+//#define EAP_IDENTITY "YOUR_EAP_IDENTITY"
+//#define EAP_PASSWORD "YOUR_EAP_PASSWORD"
+//const char *ssid = "YOUR_WIFI_SSID";    // Eduroam SSID
 //int counter = 0;
 //WiFiClient client;
 //######################### WIFI EGAT End ####################################
