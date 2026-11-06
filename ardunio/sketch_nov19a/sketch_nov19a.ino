@@ -14,8 +14,8 @@
 #include <Arduino_JSON.h>
 
 // Other WIFI Start 
-const char *ssid =     "3bb-Boonsom2.4G";         
-const char *password = "0870876026";              
+const char *ssid =     "YOUR_WIFI_SSID";         
+const char *password = "YOUR_WIFI_PASSWORD";              
 IPAddress staticIP(192, 168, 1, 242);
 IPAddress gateway(192, 168, 1, 1);
 IPAddress subnet(255, 255, 255, 0);
@@ -23,7 +23,7 @@ IPAddress dns(192, 168, 1, 1);
 // Other WIFI End 
 
 //Your Domain name with URL path or IP address with path
-const char* serverName = "http://35.202.157.132/EMS/API/api_sensors.php?id=300";
+const char* serverName = "http://YOUR_SERVER/EMS/API/api_sensors.php?id=300";
 
 // the following variables are unsigned longs because the time, measured in
 // milliseconds, will quickly become a bigger number than can be stored in an int.
