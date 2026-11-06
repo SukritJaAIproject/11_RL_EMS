@@ -12,9 +12,9 @@
 #include "Adafruit_SHT31.h"
 #include "Adafruit_CCS811.h"
 
-const char *ssid =     "mummai_owner_2.4G";         
-const char *password = "mummai0972470067";              
-char auth[] = "iFjAMTrHNiaFa9o5C6IYn58WCx-jjq4t";                    
+const char *ssid =     "YOUR_WIFI_SSID";         
+const char *password = "YOUR_WIFI_PASSWORD";              
+char auth[] = "YOUR_BLYNK_AUTH_TOKEN";                    
 #define BLYNK_PRINT Serial
 
 IPAddress staticIP(192, 168, 1, 242);
