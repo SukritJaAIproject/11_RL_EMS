@@ -15,16 +15,16 @@ Adafruit_CCS811 ccs;
 
 //EGATWIFI
 //#include "esp_wpa2.h" 
-//#define EAP_ANONYMOUS_IDENTITY "596621"
-//#define EAP_IDENTITY "596621"
-//#define EAP_PASSWORD "Sj@scg19"
-//const char *ssid = "EGATWIFI";  
+//#define EAP_ANONYMOUS_IDENTITY "YOUR_EAP_IDENTITY"
+//#define EAP_IDENTITY "YOUR_EAP_IDENTITY"
+//#define EAP_PASSWORD "YOUR_EAP_PASSWORD"
+//const char *ssid = "YOUR_WIFI_SSID";  
 //int counter = 0;
 
 
 // Other WIFI Start 
-//const char *ssid =     "mummai_owner_2.4G";         
-//const char *password = "mummai0972470067";              
+//const char *ssid =     "YOUR_WIFI_SSID";         
+//const char *password = "YOUR_WIFI_PASSWORD";              
 //IPAddress staticIP(192, 168, 1, 242);
 //IPAddress gateway(192, 168, 1, 1);
 //IPAddress subnet(255, 255, 255, 0);
@@ -33,8 +33,8 @@ Adafruit_CCS811 ccs;
 
 
 // Other WIFI Start 
-const char *ssid =     "3bb-Boonsom2.4G";         
-const char *password = "0870876026";              
+const char *ssid =     "YOUR_WIFI_SSID";         
+const char *password = "YOUR_WIFI_PASSWORD";              
 IPAddress staticIP(192, 168, 1, 242);
 IPAddress gateway(192, 168, 1, 1);
 IPAddress subnet(255, 255, 255, 0);
@@ -48,9 +48,9 @@ WiFiClient client;
 //################## E Mysql #######################
 
 //Sent the Data
-//const char* serverName = "http://10.40.62.79/EMS/post-esp-data.php";
-const char* serverName = "http://35.202.157.132/EMS/post-esp-data.php";
-String apiKeyValue = "tPmAT5Ab3j7F9";
+//const char* serverName = "http://YOUR_HOST_IP/EMS/post-esp-data.php";
+const char* serverName = "http://YOUR_SERVER/EMS/post-esp-data.php";
+String apiKeyValue = "YOUR_API_KEY";
 String sensorName = "Amphawa home";
 String sensorLocation = "Joroom";
 
@@ -67,7 +67,7 @@ String sensorLocation = "Joroom";
 //################## E Mysql #######################
 
 //Your Domain name with URL path or IP address with path
-const char* serverName = "http://35.202.157.132/EMS/API/api_sensors.php";
+const char* serverName = "http://YOUR_SERVER/EMS/API/api_sensors.php";
 
 String sensorReadings;
 float sensorReadingsArr[3];
